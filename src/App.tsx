@@ -1,5 +1,7 @@
+import Header from './components/common/Header';
+
 function App() {
-	return <div className='text-red-700'>Testando tailwind</div>;
+	return <Header />;
 }
 
 export default App;
