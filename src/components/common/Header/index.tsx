@@ -1,4 +1,4 @@
-import GithubIcon from '../../ui/githubIcon';
+import GithubIcon from '../../ui/GithubIcon';
 
 const Header = () => {
 	return (
