@@ -6,7 +6,8 @@
 		"useIgnoreFile": true
 	},
 	"files": {
-		"ignoreUnknown": false
+		"ignoreUnknown": false,
+		"includes": ["src/**/*.tsx"]
 	},
 	"formatter": {
 		"enabled": true,
@@ -49,5 +50,8 @@
 				"organizeImports": "on"
 			}
 		}
+	},
+	"css": {
+		"assist": null
 	}
 }
