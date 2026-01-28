@@ -13,7 +13,7 @@ export function RedirectPage() {
 	}, [code]);
 
 	return (
-		<main className='mt-40 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center'>
+		<main className='mt-40 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center h-137.5'>
 			<p className='text-secondary-light dark:text-secondary-dark'>
 				{t('redirecting')}
 			</p>

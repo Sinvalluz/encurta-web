@@ -4,7 +4,7 @@ import ShortenerForm from '../ShortenerForm';
 const Main = () => {
 	const { t } = useTranslation();
 	return (
-		<main className='mt-40 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center'>
+		<main className='mt-40 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center h-137.5'>
 			<h2 className='text-4xl md:text-6xl mb-6 text-secondary-light dark:text-secondary-dark font-medium '>
 				{t('subtitle')}
 			</h2>
