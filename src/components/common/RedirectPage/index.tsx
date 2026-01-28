@@ -8,7 +8,7 @@ export function RedirectPage() {
 
 	useEffect(() => {
 		if (code) {
-			window.location.href = `http://localhost:8080/api/link/${code}`;
+			window.location.href = `${import.meta.env.VITE_API_URL}/${code}`;
 		}
 	}, [code]);
 
